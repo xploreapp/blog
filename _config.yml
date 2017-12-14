@@ -11,6 +11,8 @@ sass:
 paginate: 12
 paginate_path: "/:num/"
 
+header_img: /img/blog-header.jpg
+
 author_img_s: /img/nika_s.png
 author_img: /img/nika.png
 
