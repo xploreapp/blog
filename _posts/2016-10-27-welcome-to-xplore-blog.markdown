@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Welcome to the official Xplore blog!
+title:  კეთილი იყოს თქვენი მობრძანება Xplore-ის ბლოგში!
 categories: 
-    - meta
+    - Meta
 tags: 
     - blog
     - update
