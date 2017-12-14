@@ -1,0 +1,41 @@
+title: Xplore Blog
+email: nikaoto@gmail.com
+description: Official Xplore Blog 
+baseurl: /blog
+url: http://xplore.ge
+#twitter_username: xplore
+
+sass:
+  style: compressed
+
+paginate: 12
+paginate_path: "/:num/"
+
+author_img_s: /img/nika_s.png
+author_img: /img/nika.png
+
+navigation:
+ - text: ქართული
+   url: /ge
+ - text: English
+   url: /en
+
+read_more: წაიკითხე მეტი
+env: production
+minify_html: false # Set to true only when it is production. Increase significant build time.
+
+# Build settings
+markdown: kramdown
+
+sticky: sticky # Tag used for sticky post
+sticky_count: 3 # Number of sticky post shown
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
