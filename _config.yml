@@ -1,7 +1,7 @@
 title: Xplore Blog
 email: nikaoto@gmail.com
 description: Official Xplore Blog 
-baseurl: /blog
+baseurl:
 url: http://blog.xplore.ge
 #twitter_username: xplore
 
