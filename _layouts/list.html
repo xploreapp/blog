@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: base-with-banner
 ---
 {% assign posts = "" | split:"|"  %}
 {% assign counter = 0 %}
@@ -24,16 +24,6 @@ layout: base
         {% endif %}
     {% endif %}
 {% endfor %}
-
-<div class="row">
-    <div class="slider">
-        <ul class="slides">
-            <li>
-                <img src="{{ site.header_img | prepend: site.baseurl }}"/>
-            </li>
-        </ul>
-    </div>
-</div>
 
 <div class="row">
     {% for post in paginator.posts %}
