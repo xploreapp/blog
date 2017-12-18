@@ -37,6 +37,38 @@
         </div>
     </nav>
 </header>-->
+<html>
+    <style>
+    #banner {
+        position: relative;
+        background-color: #00a700;
+        height: 350px;
+        width: 100%;
+    }
+    #banner-text {
+        position: absolute; 
+        width: 100%; 
+        bottom: 0; 
+        text-align: center;
+    }
+    .logo-frame {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #banner-logo {
+        display: block;
+        margin: 0 auto;
+    }
+    </style>
+
+    <div class="col s12" id="banner">
+        <div class="logo-frame">
+            <img id="banner-logo" src="/img/banner-logo.png"/>
+        </div>
+        <h3 id="banner-text" class="white-text"><strong>XPLORE BLOG</strong></h3>
+    </div>
+</html>
 <br/>
 <main>
     <div class="container">
@@ -47,16 +79,6 @@
 
     
 
-
-<div class="row">
-    <div class="slider">
-        <ul class="slides">
-            <li>
-                <img src="/img/blog-header.jpg"/>
-            </li>
-        </ul>
-    </div>
-</div>
 
 <div class="row">
     
@@ -70,7 +92,7 @@
             <div class="card-content">
                 <span class="card-title grey-text text-darken-4 truncate activator">კეთილი იყოს თქვენი მობრძანება Xplore-ის ბლოგში!</span>
                 <div class="valign-wrapper">
-                <div class="author"><img src="/img/nika_s.png" class="circle responsive-img"></div>
+                <div class="author"><img src="/img/beka_s.png" class="circle responsive-img"></div>
 				<div><a href="/categories/Meta">Meta</a> - 10/27/2016</div>
                 </div>
                 
@@ -82,7 +104,7 @@
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4 truncate">კეთილი იყოს თქვენი მობრძანება Xplore-ის ბლოგში!<i class="material-icons right">close</i></span>
                 <div class="row valign-wrapper">
-                    <div class="author"><img src="/img/nika_s.png" class="circle responsive-img"></div> <a href="/categories/Meta">Meta</a> - 10/27/2016
+                    <div class="author"><img src="/img/beka_s.png" class="circle responsive-img"></div> <a href="/categories/Meta">Meta</a> - 10/27/2016
                 </div>
                 
                 <a href="/tags/blog"><div class="chip waves-effect waves-red">blog</div></a>
@@ -91,20 +113,12 @@
                 
                 <a href="/tags/new"><div class="chip waves-effect waves-red">new</div></a>
                 
-                <p class="truncate"><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+                <p class="truncate"><p>Xplore გთავაზობთ ბლოგს, რომელიც განთავსდება ჩვენს ვებ გვერდზე. ჩვენი მიზანია ლაშქრობასთან, სალაშქრო მიმართულებებთან და Xplore-თან დაკავშირებული სიახლეების თქვენთვის, მაქსიმალურად დეტალურად გაზიარება. პირველ ბლოგპოსტში გვინდა ვისაუბროთ Xplore-ის ბოლო განახლებაზე, რომელშიც ერთ ძალიან დიდი და მნიშვნელოვან სიახლეს - <strong>Live Hike</strong>-ს შეხვდებით. 
+„ის ვინც თანახმაა გაცვალოს თავისუფლების თუნდაც მცირე ნაწილი უსაფრთხოებაზე, არ იმსახურებს არც თავისუფლებას, არც უსაფრთხოებას“ - ალბათ ბენჯამინ ფრანკლინს მეთვრამეტე საუკუნეში არ სმენოდა <strong>Live Hike</strong>-ის შესახებ, თორემ დარწმუნებული ვარ, ასე არ იფიქრებდა. Xplore-ის ბოლო განახლების ჩამოტვირთვისთანავე შეძლებთ თავისუფლებისა და უსაფრთხოების ერთდროულად მიღებას, ლაშქრობისას მაინც. 
+ლაშქრობისას ნებისმიერ გამოცდილ, თუ გამოუცდელ მოლაშქრეს ემუქრება საფრთხე დაიკარგოს, ანუ უბრალოდ დაეკარგოს თანამოლაშქრეებს. <strong>Live Hike</strong> რუკაზე გიჩვენებთ სად იმყოფებიან თქვენი თანამოლაშქრეები. ის იყენებს მინიმალური რაოდენობის ინტერნეტს და კავშირის გაწყვეტის შემთხვევაში, იმახსოვრებს ბოლო ადგილსამყოფელს. ვგეგმავთ რომ ეს ფუნქცია გავაუმჯობესოთ მრავალი პატარა დეტალის ჩამატებით, როგორიცაა, რუკაზე სავალი გზის 
+დახატვა, შეტყობინების გაგზავნა გუნდის წევრებისთვის სასწრაფო სიტუაციებში…</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
+<p>მომავალში ამ ბლოგის საშუალებით მოგიყვებით საქართველოში და მის გარეთ არსებულ დაცულ ტერიტორიებზე, საინტერესო ისტორიებსა და ფაქტებზე, გავესაუბრებით გამოცდილ მოლაშქრეებს და გაგიზიარებთ მათ გამოცდილებას, რათა თქვენი ლაშქრობა Xplore-თან ერთად გახდეს უფრო მარტივი, უსაფრთხო და სასიამოვნო.</p>
  </p>
             </div>
             
@@ -177,7 +191,7 @@
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">მეტი</h5>
                 <div style="align-content: center">
-                    <div>
+                    <div style="margin-top: 16px;">
                         <a id="website-button" class="waves-effect waves-light btn grey darken-2" 
                             title="Xplore Home Page" href="https://xplore.ge">
                             Xplore Website
