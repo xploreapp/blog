@@ -4,7 +4,7 @@ title:  კეთილი იყოს თქვენი მობრძან
 author_img: /img/beka.png
 author_img_s: /img/beka_s.png
 categories: 
-    - Meta
+    - ბექა
 tags: 
     - blog
     - update
