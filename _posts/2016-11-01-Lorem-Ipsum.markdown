@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  Lorem Ipsum
+author_img: /img/nika.png
+author_img_s: /img/nika_s.png
 categories: 
     - Text
 tags: 
