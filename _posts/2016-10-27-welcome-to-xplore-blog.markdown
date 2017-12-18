@@ -13,21 +13,9 @@ thumbnail: /img/blog.jpg
 cover: /img/blog.jpg
 prism: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Xplore გთავაზობთ ბლოგს, რომელიც განთავსდება ჩვენს ვებ გვერდზე. ჩვენი მიზანია ლაშქრობასთან, სალაშქრო მიმართულებებთან და Xplore-თან დაკავშირებული სიახლეების თქვენთვის, მაქსიმალურად დეტალურად გაზიარება. პირველ ბლოგპოსტში გვინდა ვისაუბროთ Xplore-ის ბოლო განახლებაზე, რომელშიც ერთ ძალიან დიდი და მნიშვნელოვან სიახლეს - **Live Hike**-ს შეხვდებით. 
+„ის ვინც თანახმაა გაცვალოს თავისუფლების თუნდაც მცირე ნაწილი უსაფრთხოებაზე, არ იმსახურებს არც თავისუფლებას, არც უსაფრთხოებას“ - ალბათ ბენჯამინ ფრანკლინს მეთვრამეტე საუკუნეში არ სმენოდა **Live Hike**-ის შესახებ, თორემ დარწმუნებული ვარ, ასე არ იფიქრებდა. Xplore-ის ბოლო განახლების ჩამოტვირთვისთანავე შეძლებთ თავისუფლებისა და უსაფრთხოების ერთდროულად მიღებას, ლაშქრობისას მაინც. 
+ლაშქრობისას ნებისმიერ გამოცდილ, თუ გამოუცდელ მოლაშქრეს ემუქრება საფრთხე დაიკარგოს, ანუ უბრალოდ დაეკარგოს თანამოლაშქრეებს. **Live Hike** რუკაზე გიჩვენებთ სად იმყოფებიან თქვენი თანამოლაშქრეები. ის იყენებს მინიმალური რაოდენობის ინტერნეტს და კავშირის გაწყვეტის შემთხვევაში, იმახსოვრებს ბოლო ადგილსამყოფელს. ვგეგმავთ რომ ეს ფუნქცია გავაუმჯობესოთ მრავალი პატარა დეტალის ჩამატებით, როგორიცაა, რუკაზე სავალი გზის 
+დახატვა, შეტყობინების გაგზავნა გუნდის წევრებისთვის სასწრაფო სიტუაციებში...
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+მომავალში ამ ბლოგის საშუალებით მოგიყვებით საქართველოში და მის გარეთ არსებულ დაცულ ტერიტორიებზე, საინტერესო ისტორიებსა და ფაქტებზე, გავესაუბრებით გამოცდილ მოლაშქრეებს და გაგიზიარებთ მათ გამოცდილებას, რათა თქვენი ლაშქრობა Xplore-თან ერთად გახდეს უფრო მარტივი, უსაფრთხო და სასიამოვნო.
