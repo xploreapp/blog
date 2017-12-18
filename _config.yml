@@ -13,7 +13,7 @@ paginate_path: "/:num/"
 
 banner_logo: /img/banner-logo.png
 banner_img: /img/blog-banner.jpg
-banner_text: OFFICIAL XPLORE BLOG
+banner_text: XPLORE BLOG
 
 author_img_s: /img/nika_s.png
 author_img: /img/nika.png
