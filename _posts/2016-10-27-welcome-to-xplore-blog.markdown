@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  კეთილი იყოს თქვენი მობრძანება Xplore-ის ბლოგში!
+title:  კეთილი იყოს თქვენი მობრძანება Xplore-ის ბლოგზე!
 author_img: /img/beka.png
 author_img_s: /img/beka_s.png
 categories: 
