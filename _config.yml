@@ -11,6 +11,7 @@ sass:
 paginate: 12
 paginate_path: "/:num/"
 
+basecolor: '#00a700'
 banner_logo: /img/banner-logo.png
 banner_img: /img/blog-banner.jpg
 banner_text: XPLORE BLOG

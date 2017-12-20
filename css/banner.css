@@ -1,0 +1,24 @@
+---
+---
+
+#banner {
+    position: relative;
+    background-color: {{ site.basecolor }};
+    height: 350px;
+    width: 100%;
+}
+#banner-text {
+    position: absolute; 
+    width: 100%; 
+    bottom: 0; 
+    text-align: center;
+}
+.logo-frame {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#banner-logo {
+    display: block;
+    margin: 0 auto;
+}
