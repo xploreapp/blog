@@ -1,6 +1,5 @@
 ---
 ---
-
 #banner {
     position: relative;
     background-color: {{ site.basecolor }};
@@ -12,8 +11,9 @@
     width: 100%; 
     bottom: 0; 
     text-align: center;
+    margin-bottom: 45px;
 }
-.logo-frame {
+#logo-frame {
     height: 100%;
     display: flex;
     align-items: center;
