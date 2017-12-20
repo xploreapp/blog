@@ -1,0 +1,36 @@
+.normal-text {
+	font-size: 18px;
+}
+.post-title {
+    font-size: 4em;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .normal-text {
+        font-size: 16px;
+    }
+    .post-title {
+        font-size: 1.8em;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .normal-text {
+        font-size: 18px;
+    }
+    .post-title {
+        font-size: 2.3em;
+    }
+}
+
+/* For Computers */
+@media screen and (min-width: 780px) {
+    .normal-text {
+        font-size: 19px;
+    }
+    .post-title {
+        font-size: 2.8em;
+    }
+}
