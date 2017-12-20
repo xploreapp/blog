@@ -54,7 +54,9 @@ layout: base-with-banner
                 <a href="{{ tag | prepend: '/tags/' | prepend: site.baseurl }}"><div class="chip waves-effect waves-red">{{ tag }}</div></a>
                 {% endif %}
                 {% endfor %}
-                <p class="truncate">{{ post.excerpt }} </p>
+                <span class="small-text">
+                    <p class="truncate">{{ post.excerpt }} </p>
+                </span>
                 {% endif %}
             </div>
             <div class="card-action">
@@ -79,9 +81,11 @@ layout: base-with-banner
                     <div class="chip waves-effect waves-red">{{ tag }}</div>
                 </a>
                 {% endfor %}
-                <p>
-                    {{ post.excerpt }}
-                </p>
+                <span class="small-text">
+                    <p>
+                        {{ post.excerpt }}
+                    </p>
+                </span>
             </div>
             {% endif %}
         </div>
