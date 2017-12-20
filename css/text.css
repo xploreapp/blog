@@ -4,6 +4,9 @@
 .post-title {
     font-size: 4em;
 }
+.justify {
+    text-align: justify;
+}
 
 /* For Mobile */
 @media screen and (max-width: 540px) {
