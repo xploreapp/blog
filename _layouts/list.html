@@ -1,14 +1,6 @@
 ---
 layout: base-with-banner
 ---
-<head>
-<style>
-    p {
-        text-align: justify;
-    }
-</style>
-</head>
-
 {% assign posts = "" | split:"|"  %}
 {% assign counter = 0 %}
 {% for post in site.posts %}
@@ -54,7 +46,7 @@ layout: base-with-banner
                 <a href="{{ tag | prepend: '/tags/' | prepend: site.baseurl }}"><div class="chip waves-effect waves-red">{{ tag }}</div></a>
                 {% endif %}
                 {% endfor %}
-                <span class="small-text">
+                <span class="small-text justify">
                     <p class="truncate">{{ post.excerpt }} </p>
                 </span>
                 {% endif %}
@@ -81,7 +73,7 @@ layout: base-with-banner
                     <div class="chip waves-effect waves-red">{{ tag }}</div>
                 </a>
                 {% endfor %}
-                <span class="small-text">
+                <span class="small-text justify">
                     <p>
                         {{ post.excerpt }}
                     </p>
