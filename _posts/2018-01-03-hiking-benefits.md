@@ -8,8 +8,8 @@ categories:
 tags: 
     - hiking
     - health
-thumbnail: /img/hiking-benefits-thumbnail.jpg
-cover: /img/hiking-benefits-cover.jpg
+thumbnail: /img/hiking-benefits-cover.png
+cover: /img/hiking-benefits-cover.png
 prism: true
 excerpt_separator: <!--more-->
 ---
