@@ -27,7 +27,7 @@ navigation:
 
 read_more: წაიკითხე მეტი
 env: production
-minify_html: true # Set to true only when it is production. Increase significant build time.
+minify_html: false # Set to true only when it is production. Increase significant build time.
 
 # Build settings
 markdown: kramdown
