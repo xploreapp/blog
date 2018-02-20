@@ -1,24 +1,24 @@
 ---
 ---
 #banner {
-    position: relative;
-    background-color: {{ site.basecolor }};
-    height: 350px;
-    width: 100%;
-}
-#banner-text {
-    position: absolute; 
-    width: 100%; 
-    bottom: 0; 
-    text-align: center;
-    margin-bottom: 45px;
-}
-#logo-frame {
-    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: {{ site.basecolor }};
 }
-#banner-logo {
-    display: block;
-    margin: 0 auto;
+
+#banner-text {
+    color: white;
+    font-family: Lato;
+    font-weight: 900;
+    text-align: center;
+    padding: 0;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
 }
