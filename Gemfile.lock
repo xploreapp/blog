@@ -9,8 +9,8 @@ GEM
       json
     csspool-st (3.1.2)
     execjs (2.7.0)
-    ffi (1.9.18)
-    ffi (1.9.18-x86-mingw32)
+    ffi (1.11.2)
+    ffi (1.11.2-x86-mingw32)
     forwardable-extended (2.6.0)
     html_press (0.8.2)
       htmlentities
